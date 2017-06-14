@@ -135,7 +135,6 @@ select * from sentiment5 where ch = 'facebook' and dt > 20160101;
 select * from sentiment5 where ch = 'facebook' and dt >= 20160102 and dt <= 20160103;
 ```
 
-For one table at a time, copy/paste/run the groups of queries. In other words, run all of the queries for sentiment1 at the same time. Check out Cassandra's response. Then run all queries for sentiment2 at the same time, etc. You'll notice that some of the queries work against some of the tables, but not all. Why?
 
 ## Extra Credit 1
 
